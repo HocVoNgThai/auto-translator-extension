@@ -50,3 +50,13 @@ input:focus + .slider { box-shadow: 0 0 1px #2196F3; }
 input:checked + .slider:before { transform: translateX(22px); }
 .slider.round { border-radius: 34px; }
 .slider.round:before { border-radius: 50%; }
+
+/* Thêm đoạn này vào cuối tệp popup.css */
+.language-selector {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.language-selector select {
+    padding: 2px;
+    margin-left: 5px;
+}

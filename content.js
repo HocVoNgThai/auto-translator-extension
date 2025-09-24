@@ -7,23 +7,22 @@
         const bubble = document.createElement('div');
         bubble.id = 'auto-trans-bubble';
         
-        // Thêm CSS cho bubble
+        // === THAY ĐỔI KÍCH THƯỚC TẠI ĐÂY ===
         Object.assign(bubble.style, {
             position: 'absolute',
             zIndex: 2147483647,
             background: 'white',
             border: '1px solid #ccc',
-            padding: '10px',
+            padding: '12px', // Tăng padding
             borderRadius: '8px',
             boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-            maxWidth: '480px',
-            fontSize: '14px',
+            maxWidth: '520px', // Tăng chiều rộng tối đa
+            fontSize: '15px', // Tăng cỡ chữ
             color: '#333',
             fontFamily: 'sans-serif',
-            display: 'none' // Ẩn ban đầu
+            display: 'none'
         });
         
-        // Tạo nội dung và nút đóng
         bubble.innerHTML = `
             <div id="auto-trans-content" style="white-space: pre-wrap;"></div>
             <button id="auto-trans-close" style="position: absolute; top: 2px; right: 2px; background: none; border: none; font-size: 16px; cursor: pointer; color: #888;">&times;</button>
@@ -31,7 +30,6 @@
 
         document.body.appendChild(bubble);
 
-        // Thêm sự kiện cho nút đóng
         bubble.querySelector('#auto-trans-close').addEventListener('click', removeBubble);
         bubble.addEventListener('mousedown', (e) => e.stopPropagation());
 
@@ -41,7 +39,7 @@
     function removeBubble() {
         const ex = document.getElementById('auto-trans-bubble');
         if (ex) {
-            ex.style.display = 'none'; // Ẩn đi thay vì xóa hẳn
+            ex.style.display = 'none';
         }
     }
 
@@ -52,7 +50,7 @@
         b.querySelector('#auto-trans-content').textContent = text || '';
         b.style.left = Math.max(0, x) + 'px';
         b.style.top = Math.max(0, y) + 'px';
-        b.style.display = 'block'; // Hiện bubble lên
+        b.style.display = 'block';
     }
 
     function getSelectionText() {
@@ -78,9 +76,8 @@
     }
 
     document.addEventListener('mouseup', (ev) => {
-        // Kiểm tra xem tiện ích có được bật hay không
         chrome.storage.sync.get('is_enabled', (settings) => {
-            if (settings.is_enabled === false) return; // Nếu bị tắt thì không làm gì cả
+            if (settings.is_enabled === false) return;
 
             const text = getSelectionText();
             if (!text || text.length < 2) {
@@ -102,13 +99,11 @@
 
     document.addEventListener('mousedown', (ev) => {
         const bubble = document.getElementById('auto-trans-bubble');
-        // Nếu click ra ngoài bubble thì ẩn nó đi
         if (bubble && !bubble.contains(ev.target)) {
             removeBubble();
         }
     });
 
-    // Các sự kiện để ẩn popup
     window.addEventListener('scroll', removeBubble, true);
     window.addEventListener('resize', removeBubble, true);
     document.addEventListener('keydown', (e) => {
