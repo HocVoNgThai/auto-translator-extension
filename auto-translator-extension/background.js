@@ -1,5 +1,5 @@
 //Replace your api key here
-const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
+const API_KEY = "AIzaSyAGLiWFQKMa81Bu7mpwZ5lPIIvZVq8saSU";
 
 async function translateText(text, targetLang) {
     if (!API_KEY || API_KEY === "YOUR_GEMINI_API_KEY_HERE") {
@@ -8,7 +8,7 @@ async function translateText(text, targetLang) {
 
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
     
-    const prompt = `You are a helpful translator. Translate the following English text to ${targetLang}. Keep the translation concise and only output the translated text, without any extra commentary or explanation.\n\nText to translate: "${text}"`;
+    const prompt = `You are a helpful translator. Translate the following texts, words, or sentences into ${targetLang}. Keep the translation concise and only output the translated meaning. Do not add explanations or say anything beyond the translation itself. If a word has multiple meanings, list them separated by commas, with a maximum of three to four meanings. Text to translate: "${text}"`;
 
     const payload = {
         contents: [{ parts: [{ text: prompt }] }],
