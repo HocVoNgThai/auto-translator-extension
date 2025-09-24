@@ -25,7 +25,7 @@
         
         bubble.innerHTML = `
             <div id="auto-trans-content" style="white-space: pre-wrap;"></div>
-            <button id="auto-trans-close" style="position: absolute; top: 2px; right: 2px; background: none; border: none; font-size: 16px; cursor: pointer; color: #888;">&times;</button>
+            <button id="auto-trans-close" style="position: absolute; top: 2px; right: 2px; background: none; border: none; font-size: 13px; cursor: pointer; color: #000000;">&times;</button>
         `;
 
         document.body.appendChild(bubble);
