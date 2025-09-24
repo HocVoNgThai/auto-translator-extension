@@ -63,6 +63,7 @@ Biểu tượng của tiện ích sẽ xuất hiện trên thanh công cụ củ
 - Nhấp chuột trái vào biểu tượng tiện ích trên thanh công cụ để mở popup chính.
 - Tại đây, bạn có thể bật/tắt nhanh tiện ích hoặc thay đổi ngôn ngữ đích.
 
+---
 ## Hướng phát triển trong tương lai 🚀 
 
 - Dự án này có rất nhiều tiềm năng để phát triển thêm. Dưới đây là một vài ý tưởng:
