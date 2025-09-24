@@ -72,5 +72,4 @@ Biểu tượng của tiện ích sẽ xuất hiện trên thanh công cụ củ
 - Lịch sử dịch: Lưu lại lịch sử các bản dịch gần đây trong popup để tiện tra cứu.
 - Tùy chỉnh nâng cao: Cho phép người dùng tùy chỉnh giao diện của bong bóng dịch (màu sắc, cỡ chữ, vị trí) trong trang Tùy chọn.
 - Chế độ tra từ điển: Thêm tùy chọn để tra định nghĩa của một từ thay vì chỉ dịch nghĩa.
-
-Đăng lên Cửa hàng Chrome trực tuyến: Đóng gói tiện ích để người dùng có thể dễ dàng cài đặt từ Cửa hàng Chrome trực tuyến.
+- Đăng lên Cửa hàng Chrome trực tuyến: Đóng gói tiện ích để người dùng có thể dễ dàng cài đặt từ Cửa hàng Chrome trực tuyến.
