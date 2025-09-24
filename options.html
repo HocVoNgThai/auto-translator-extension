@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Auto Translate Options</title>
+<style>
+    body { font-family: Arial, sans-serif; padding: 12px; min-width: 320px; }
+    /* Quy tắc chung cho các label chính */
+    label { display: block; margin-top: 12px; }
+    input[type=text] { width: 100%; box-sizing: border-box; }
+    #save { margin-top: 15px; }
+    .option-item { margin-bottom: 10px; display: flex; align-items: center; }
+    .option-item input { margin-right: 8px; }
+
+    /* === SỬA LỖI TẠI ĐÂY === */
+    /* Ghi đè quy tắc chung, chỉ áp dụng cho label nằm cạnh checkbox */
+    .option-item > label {
+        display: inline-block; /* Cho phép label nằm trên cùng một dòng */
+        margin-top: 0;       /* Bỏ khoảng cách phía trên */
+    }
+</style>
+</head>
+<body>
+    <h3>Auto Select Translator - Options</h3>
+    
+    <div class="option-item">
+        <input id="enabled" type="checkbox" checked />
+        <label for="enabled">Bật tính năng dịch tự động khi bôi đen</label>
+    </div>
+    
+    <hr>
+
+    <label for="apiKey">Gemini API Key:
+        <input id="apiKey" type="text" placeholder="Nhập API key của bạn..." />
+    </label>
+    
+    <label for="targetLang">Ngôn ngữ đích (mã code):
+        <input id="targetLang" type="text" value="vi" />
+    </label>
+
+    <button id="save">Lưu Cài Đặt</button>
+
+    <div id="msg"></div>
+
+    <script src="options.js"></script>
+</body>
+</html>
