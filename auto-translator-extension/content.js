@@ -1,4 +1,3 @@
-// content.js
 (function(){
     let debounceTimer = null;
     const DEBOUNCE_MS = 600;
@@ -7,24 +6,24 @@
         const bubble = document.createElement('div');
         bubble.id = 'auto-trans-bubble';
         
-        // === THAY ĐỔI KÍCH THƯỚC TẠI ĐÂY ===
+        // === THAY ĐỔI GIAO DIỆN TẠI ĐÂY ===
         Object.assign(bubble.style, {
             position: 'absolute',
             zIndex: 2147483647,
             background: 'white',
             border: '1px solid #ccc',
-            padding: '12px', // Tăng padding
+            padding: '12px',
             borderRadius: '8px',
             boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-            maxWidth: '520px', // Tăng chiều rộng tối đa
-            fontSize: '15px', // Tăng cỡ chữ
+            maxWidth: '520px', 
+            fontSize: '15px',
             color: '#333',
             fontFamily: 'sans-serif',
             display: 'none'
         });
         
         bubble.innerHTML = `
-            <div id="auto-trans-content" style="white-space: pre-wrap;"></div>
+            <div id="auto-trans-content" style="white-space: pre-wrap;"></div> 
             <button id="auto-trans-close" style="position: absolute; top: 2px; right: 2px; background: none; border: none; font-size: 13px; cursor: pointer; color: #000000;">&times;</button>
         `;
 
