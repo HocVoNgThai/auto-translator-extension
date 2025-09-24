@@ -1,3 +1,5 @@
+_THIS DOCUMENT IS ALSO AVAILABLE in (Xem bản dịch tiếng Việt tại) [**Phiên bản tiếng Việt**](./README-VIE.md)._
+<hr>
 <div align = "center">
   
   # auto-translator-extension 📝
@@ -25,24 +27,33 @@ A browser extension that automatically translates selected text on any webpage u
 ### Installation (from source)
 
 1.  **Download or Clone**: Download this repository as a ZIP file and unzip it, or clone it using Git.
-2.  **Open Extensions Page**: Open your browser and navigate to `chrome://extensions`.
-3.  **Enable Developer Mode**: Find the "Developer mode" toggle in the top-right corner and turn it on.
-4.  **Load the Extension**: Click the "**Load unpacked**" button that appears.
-5.  **Select Folder**: In the file selection dialog, choose the folder where you unzipped or cloned the repository.
+```
+git clone https://github.com/HocVoNgThai/auto-translator-extension.git
+```
+3.  **Open Extensions Page**: Open your browser and navigate to `chrome://extensions`.
+4.  **Enable Developer Mode**: Find the "Developer mode" toggle in the top-right corner and turn it on.
+<img width="275" height="91" alt="image" src="https://github.com/user-attachments/assets/c8926036-884a-4422-80c1-bb19b1f0ba6f" />
+
+5.  **Load the Extension**: Click the "**Load unpacked**" button that appears.
+<img width="557" height="220" alt="image" src="https://github.com/user-attachments/assets/ed1cb4a9-2b3f-4fe1-ab7e-5d6cdd54a305" />
+
+6.  **Select Folder**: In the file selection dialog, choose the folder where you unzipped or cloned the repository.
 
 The extension icon should now appear in your browser's toolbar!
 
 ### Configuration and Usage
 
 1.  **Set Your API Key**:
-    - Right-click the extension icon and select "**Options**".
-    - Paste your Google Gemini API Key into the designated field.
-    - Click "**Save Settings**".
-2.  **Start Translating**:
+    - Open source code folder and choose file `background.js`.
+    - Paste your Google Gemini API Key into here.
+     <img width="555" height="75" alt="image" src="https://github.com/user-attachments/assets/ccfd3499-c348-4db3-bb69-a5cf7468dd71" />
+     
+    - Click "**Save**" and reload the extension.
+3.  **Start Translating**:
     - Go to any webpage with text.
     - Highlight a word or phrase.
     - The translation will appear in a small popup bubble near your selection.
-3.  **Quick Settings**:
+4.  **Quick Settings**:
     - Left-click the extension icon in the toolbar to open the main popup.
     - From here, you can quickly **enable/disable** the extension or **change the target language**.
 
@@ -59,3 +70,4 @@ This project has a lot of potential for growth. Here are some ideas for future f
 - **Publish to Web Store**: Package the extension for easy installation from the Chrome Web Store.
 
 ---
+
