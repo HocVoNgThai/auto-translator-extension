@@ -1,4 +1,4 @@
-_THIS DOCUMENT IS ALSO AVAILABLE in (Xem bản dịch tiếng Việt tại) [**Phiên bản tiếng Việt**](./README-VIE.md)._
+_This document is also available in (Xem bản dịch tiếng Việt tại) [**Vietnamese version**](./README.vie.md)._
 <hr>
 <div align = "center">
   

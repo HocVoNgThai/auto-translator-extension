@@ -1,6 +1,4 @@
-// background.js (service worker) - PHIÊN BẢN API KEY TÍCH HỢP SẴN
-
-// === DÁN API KEY CỦA BẠN VÀO ĐÂY ===
+//Replace your api key here
 const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
 
 async function translateText(text, targetLang) {
@@ -41,8 +39,6 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
             try {
                 const items = await chrome.storage.sync.get('target_lang');
                 const targetLang = items.target_lang || 'vi';
-
-                // Giờ không cần truyền API key nữa
                 const result = await translateText(msg.text, targetLang);
                 sendResponse({ ok: true, result });
             } catch (err) {
