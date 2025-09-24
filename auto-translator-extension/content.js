@@ -103,7 +103,7 @@
         }
     });
 
-    window.addEventListener('scroll', removeBubble, true);
+    //window.addEventListener('scroll', removeBubble, true);
     window.addEventListener('resize', removeBubble, true);
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
