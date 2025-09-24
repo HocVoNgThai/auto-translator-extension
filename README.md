@@ -68,7 +68,3 @@ This project has a lot of potential for growth. Here are some ideas for future f
 - **Advanced Customization**: Allow users to customize the appearance of the translation bubble (colors, font size, position) from the Options page.
 - **Definition Mode**: Add an option to get a dictionary definition of a word instead of just a translation.
 - **Publish to Web Store**: Package the extension for easy installation from the Chrome Web Store.
-
----
-
-
