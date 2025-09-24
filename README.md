@@ -30,14 +30,14 @@ A browser extension that automatically translates selected text on any webpage u
 ```
 git clone https://github.com/HocVoNgThai/auto-translator-extension.git
 ```
-3.  **Open Extensions Page**: Open your browser and navigate to `chrome://extensions`.
-4.  **Enable Developer Mode**: Find the "Developer mode" toggle in the top-right corner and turn it on.
+2.  **Open Extensions Page**: Open your browser and navigate to `chrome://extensions`.
+3.  **Enable Developer Mode**: Find the "Developer mode" toggle in the top-right corner and turn it on.
 <img width="275" height="91" alt="image" src="https://github.com/user-attachments/assets/c8926036-884a-4422-80c1-bb19b1f0ba6f" />
 
-5.  **Load the Extension**: Click the "**Load unpacked**" button that appears.
+4.  **Load the Extension**: Click the "**Load unpacked**" button that appears.
 <img width="557" height="220" alt="image" src="https://github.com/user-attachments/assets/ed1cb4a9-2b3f-4fe1-ab7e-5d6cdd54a305" />
 
-6.  **Select Folder**: In the file selection dialog, choose the folder where you unzipped or cloned the repository.
+5.  **Select Folder**: In the file selection dialog, choose the folder where you unzipped or cloned the repository.
 
 The extension icon should now appear in your browser's toolbar!
 
@@ -49,11 +49,11 @@ The extension icon should now appear in your browser's toolbar!
      <img width="555" height="75" alt="image" src="https://github.com/user-attachments/assets/ccfd3499-c348-4db3-bb69-a5cf7468dd71" />
      
     - Click "**Save**" and reload the extension.
-3.  **Start Translating**:
+2.  **Start Translating**:
     - Go to any webpage with text.
     - Highlight a word or phrase.
     - The translation will appear in a small popup bubble near your selection.
-4.  **Quick Settings**:
+3.  **Quick Settings**:
     - Left-click the extension icon in the toolbar to open the main popup.
     - From here, you can quickly **enable/disable** the extension or **change the target language**.
 
@@ -70,4 +70,5 @@ This project has a lot of potential for growth. Here are some ideas for future f
 - **Publish to Web Store**: Package the extension for easy installation from the Chrome Web Store.
 
 ---
+
 
