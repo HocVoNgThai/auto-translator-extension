@@ -1,5 +1,5 @@
 //Replace your api key here
-const API_KEY = "AIzaSyAGLiWFQKMa81Bu7mpwZ5lPIIvZVq8saSU";
+const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
 
 async function translateText(text, targetLang) {
     if (!API_KEY || API_KEY === "YOUR_GEMINI_API_KEY_HERE") {
