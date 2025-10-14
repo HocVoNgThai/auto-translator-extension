@@ -6,7 +6,7 @@ async function translateText(text, targetLang) {
         throw new Error('API key chưa được cấu hình bởi nhà phát triển.');
     }
 
-    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
+    const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
     
     const prompt = `You are a helpful translator. Translate the following texts, words, or sentences into ${targetLang}. Keep the translation concise and only output the translated meaning. Do not add explanations or say anything beyond the translation itself. If a word has multiple meanings, list them separated by commas, with a maximum of three to four meanings. Text to translate: "${text}"`;
 
