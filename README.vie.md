@@ -35,11 +35,11 @@ git clone https://github.com/HocVoNgThai/auto-translator-extension.git
 
 3. **Bật chế độ nhà phát triển**: Tìm và bật tùy chọn "Chế độ dành cho nhà phát triển" (Developer mode) ở góc trên bên phải.
 
-<img width="275" height="91" alt="image" src="https://github.com/user-attachments/assets/c8926036-884a-4422-80c1-bb19b1f0ba6f" />
+<p align='center'><img width="275" height="91" alt="image" src="https://github.com/user-attachments/assets/c8926036-884a-4422-80c1-bb19b1f0ba6f" /></p>
 
 4. **Tải tiện ích**: Nhấp vào nút "Tải tiện ích đã giải nén" (Load unpacked) vừa xuất hiện.
 
-<img width="557" height="220" alt="image" src="https://github.com/user-attachments/assets/ed1cb4a9-2b3f-4fe1-ab7e-5d6cdd54a305" />
+<p align='center'><img width="557" height="220" alt="image" src="https://github.com/user-attachments/assets/ed1cb4a9-2b3f-4fe1-ab7e-5d6cdd54a305" /></p>
 
 5. **Chọn Thư mục**: Trong cửa sổ chọn tệp, hãy chọn thư mục mà bạn vừa giải nén hoặc clone repo.
 
@@ -50,7 +50,7 @@ Biểu tượng của tiện ích sẽ xuất hiện trên thanh công cụ củ
 1. **Thiết lập API Key của bạn**:
 - Mở thư mục mã nguồn và chọn tệp background.js.
 - Dán Google Gemini API Key của bạn vào đây.
-<img width="555" height="75" alt="image" src="https://github.com/user-attachments/assets/ccfd3499-c348-4db3-bb69-a5cf7468dd71" />
+<p align='center'><img width="555" height="75" alt="image" src="https://github.com/user-attachments/assets/ccfd3499-c348-4db3-bb69-a5cf7468dd71" /></p>
 
 - Nhấn "Lưu" và tải lại tiện ích.
 
