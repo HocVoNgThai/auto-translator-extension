@@ -10,7 +10,7 @@ A browser extension that automatically translates selected text on any webpage u
 ---
 ## Features ✨
 - **Instant Translation**: Get translations on the fly just by selecting text.
-- **Powered by Google Gemini**: Leverages the power of the Gemini 1.5 Flash model for fast and accurate translations.
+- **Powered by Google Gemini**: Leverages the power of the Gemini 2.5 Flash model for fast and accurate translations.
 - **Customizable Target Language**: Easily switch the language you want to translate to directly from the extension's popup.
 - **Quick Toggle**: Enable or disable the translation feature with a single click in the popup.
 - **Customizable Bubble**: The translation bubble is designed to be helpful but not intrusive. It can be easily dismissed by scrolling, pressing 'Escape', or clicking the '×' button.
@@ -68,4 +68,5 @@ This project has a lot of potential for growth. Here are some ideas for future f
 - **Advanced Customization**: Allow users to customize the appearance of the translation bubble (colors, font size, position) from the Options page.
 - **Definition Mode**: Add an option to get a dictionary definition of a word instead of just a translation.
 - **Publish to Web Store**: Package the extension for easy installation from the Chrome Web Store.
+
 
