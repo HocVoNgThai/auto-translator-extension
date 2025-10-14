@@ -32,10 +32,10 @@ git clone https://github.com/HocVoNgThai/auto-translator-extension.git
 ```
 2.  **Open Extensions Page**: Open your browser and navigate to `chrome://extensions`.
 3.  **Enable Developer Mode**: Find the "Developer mode" toggle in the top-right corner and turn it on.
-<img width="275" height="91" alt="image" src="https://github.com/user-attachments/assets/c8926036-884a-4422-80c1-bb19b1f0ba6f" />
+<p align='center'><img width="275" height="91" alt="image" src="https://github.com/user-attachments/assets/c8926036-884a-4422-80c1-bb19b1f0ba6f" /></p>
 
 4.  **Load the Extension**: Click the "**Load unpacked**" button that appears.
-<img width="557" height="220" alt="image" src="https://github.com/user-attachments/assets/ed1cb4a9-2b3f-4fe1-ab7e-5d6cdd54a305" />
+<p align='center'><img width="557" height="220" alt="image" src="https://github.com/user-attachments/assets/ed1cb4a9-2b3f-4fe1-ab7e-5d6cdd54a305" /></p>
 
 5.  **Select Folder**: In the file selection dialog, choose the folder where you unzipped or cloned the repository.
 
@@ -46,7 +46,7 @@ The extension icon should now appear in your browser's toolbar!
 1.  **Set Your API Key**:
     - Open source code folder and choose file `background.js`.
     - Paste your Google Gemini API Key into here.
-     <img width="555" height="75" alt="image" src="https://github.com/user-attachments/assets/ccfd3499-c348-4db3-bb69-a5cf7468dd71" />
+     <p align='center'><img width="555" height="75" alt="image" src="https://github.com/user-attachments/assets/ccfd3499-c348-4db3-bb69-a5cf7468dd71" /></p>
      
     - Click "**Save**" and reload the extension.
 2.  **Start Translating**:
@@ -68,3 +68,4 @@ This project has a lot of potential for growth. Here are some ideas for future f
 - **Advanced Customization**: Allow users to customize the appearance of the translation bubble (colors, font size, position) from the Options page.
 - **Definition Mode**: Add an option to get a dictionary definition of a word instead of just a translation.
 - **Publish to Web Store**: Package the extension for easy installation from the Chrome Web Store.
+
