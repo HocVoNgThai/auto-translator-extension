@@ -12,7 +12,7 @@ Một tiện ích trình duyệt giúp dịch tự động văn bản được b
 ## Tính năng ✨
 
 - **Dịch tức thì**: Nhận bản dịch ngay lập tức chỉ bằng cách bôi đen văn bản.
-- **Hỗ trợ bởi Google Gemini**: Tận dụng sức mạnh của mô hình Gemini 1.5 Flash cho các bản dịch nhanh và chính xác.
+- **Hỗ trợ bởi Google Gemini**: Tận dụng sức mạnh của mô hình Gemini 2.5 Flash cho các bản dịch nhanh và chính xác.
 - **Tùy chỉnh ngôn ngữ đích**: Dễ dàng thay đổi ngôn ngữ bạn muốn dịch sang trực tiếp từ popup của tiện ích.
 - **Bật/Tắt nhanh**: Kích hoạt hoặc vô hiệu hóa tính năng dịch chỉ với một cú nhấp chuột trong popup.
 - **Popup tùy chỉnh**: Popup dịch được thiết kế hữu ích nhưng không gây rối. Bạn có thể dễ dàng tắt nó bằng cách cuộn trang, nhấn phím 'Escape', hoặc nhấp vào nút '×'.
