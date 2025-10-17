@@ -1,5 +1,16 @@
 Tài liệu này cũng có sẵn bằng tiếng Anh [**Phiên bản tiếng Anh**](README.md).
 <hr>
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=HocVoNgThai.auto-translator-extension" alt="visitor badge"/>
+  <img src="https://img.shields.io/github/license/HocVoNgThai/auto-translator-extension" alt="license"/>
+  <img src="https://img.shields.io/github/forks/HocVoNgThai/auto-translator-extension?style=social" alt="forks"/>
+  <img src="https://img.shields.io/github/last-commit/HocVoNgThai/auto-translator-extension?style=social" alt="last commit"/>
+  <img src="https://img.shields.io/github/stars/HocVoNgThai/auto-translator-extension.svg?style=social&label=Star" alt="stars"/>
+  <img src="https://img.shields.io/github/languages/top/HocVoNgThai/auto-translator-extension"/>
+  <img src="https://img.shields.io/github/languages/count/HocVoNgThai/auto-translator-extension"/>
+</p>
+
 <div align = "center">
 
 # auto-translator-extension 📝
