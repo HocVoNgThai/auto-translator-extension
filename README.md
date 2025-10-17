@@ -1,5 +1,18 @@
 _This document is also available in (Xem bản dịch tiếng Việt tại) [**Vietnamese version**](./README.vie.md)._
+
 <hr>
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=HocVoNgThai.auto-translator-extension" alt="visitor badge"/>
+  <img src="https://img.shields.io/github/license/HocVoNgThai/auto-translator-extension" alt="license"/>
+  <img src="https://img.shields.io/github/forks/HocVoNgThai/auto-translator-extension?style=social" alt="forks"/>
+  <img src="https://img.shields.io/github/last-commit/HocVoNgThai/auto-translator-extension?style=social" alt="last commit"/>
+  <img src="https://img.shields.io/github/stars/HocVoNgThai/auto-translator-extension.svg?style=social&label=Star" alt="stars"/>
+  <img src="https://img.shields.io/github/languages/top/HocVoNgThai/auto-translator-extension"/>
+  <img src="https://img.shields.io/github/languages/count/HocVoNgThai/auto-translator-extension"/>
+</p>
+
+
 <div align = "center">
   
   # auto-translator-extension 📝
@@ -68,5 +81,6 @@ This project has a lot of potential for growth. Here are some ideas for future f
 - **Advanced Customization**: Allow users to customize the appearance of the translation bubble (colors, font size, position) from the Options page.
 - **Definition Mode**: Add an option to get a dictionary definition of a word instead of just a translation.
 - **Publish to Web Store**: Package the extension for easy installation from the Chrome Web Store.
+
 
 
